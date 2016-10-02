@@ -12,7 +12,7 @@ $font-size-h5:            1em;
 $font-size-h6:            0.85em; //~11px
 
 $brand-primary:           $color-primary;
-$gray-dark:               $color-darker;
+$gray-dark:               $color-darkest;
 $panel-bg:                $color-light;
 
 $border-width:            0.07692307692em; //~1px
@@ -20,3 +20,10 @@ $card-border-width:       $border-width; //~1px
 $card-border-color:       $color-dark;
 
 $input-border:            $color-dark;
+
+$text-color:             $color-lightest;
+$body-bg:                $color-darkest;
+$headings-color:         $color-primary;
+
+$navbar-inverse-bg:         $color-darker;
+$navbar-inverse-link-color: $color-primary;

@@ -3,6 +3,10 @@
   max-width: 1008px;
 }
 
+img {
+  max-width: 100% !important;
+}
+
 a {
   &:hover,
   &:focus {
@@ -26,5 +30,73 @@ a.dark-link {
   &:hover,
   &:focus {
     color: $color-primary;
+  }
+}
+
+.content {
+  @extend .row;
+
+  &.brochures,
+  &.business-cards,
+  &.advertisements,
+  &.illustrations,
+  &.motion-graphics,
+  &.t-shirts,
+  &.web-sites {
+    > a {
+      margin-bottom: $grid-gutter-width;
+      text-align: center;
+
+      img {
+        border: 2px solid $color-primary;
+        border-radius: 4px;
+      }
+    }
+  }
+
+  &.advertisements {
+    > a {
+      @extend .col-xs-12;
+      @extend .col-sm-4;
+    }
+  }
+
+  &.brochures {
+    > a {
+      @extend .col-xs-4;
+      @extend .col-sm-2;
+    }
+    &.mosaic {
+      > a {
+        @extend .col-xs-4;
+      }
+    }
+  }
+
+  &.motion-graphics {
+    > a {
+      @extend .col-xs-6;
+      @extend .col-sm-3;
+    }
+  }
+
+  &.business-cards,
+  &.illustrations,
+  &.t-shirts,
+  &.web-sites {
+    > a {
+      @extend .col-xs-6;
+      @extend .col-sm-4;
+    }
+  }
+
+  @media screen and (min-width: $screen-sm-min) {
+    &.brochures img       { max-height: 100%; }
+    &.business-cards img  { max-height: 168px; }
+    &.advertisements img  { max-height: 300px; }
+    &.illustrations img   { max-height: 100%; }
+    &.motion-graphics img { max-height: 100%; }
+    &.t-shirts img        { max-height: 270px; }
+    &.web-sites img       { max-height: 100%; }
   }
 }

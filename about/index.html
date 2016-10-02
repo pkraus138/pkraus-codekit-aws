@@ -7,6 +7,7 @@
 
     <title>Peter Kraus | Full-stack Developer and Designer Extraordinaire</title>
 
+    <link rel="shortcut icon" href="/favicon.ico">
     <link href="/assets/css/styles.css" rel="stylesheet">
     <link href="/assets/vendor/shadowbox/shadowbox.css" rel="stylesheet">
 
@@ -16,9 +17,10 @@
     <![endif]-->
   </head>
   <body>
-<div class="container">
-    <img src="/assets/img/banner.png" alt="">
+<div class="banner">
+  <img src="/assets/img/banner.png">
 </div>
+
 <nav class="navbar navbar-inverse navbar-static-top">
   <div class="container">
     <div class="navbar-header">
@@ -32,26 +34,20 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li class="dropdown-header">Nav header</li>
-            <li><a href="#">Separated link</a></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
+        <li id="home"><a href="/home">Home</a></li>
+        <li id="about"><a href="/about">About</a></li>
+        <li id="web"><a href="/web">Web</a></li>
+        <li id="print"><a href="/print">Print</a></li>
+        <li id="digital-illustrations"><a href="/digital-illustrations">Illustrations</a></li>
+        <li id="promotional-items"><a href="/promotional-items">T-Shirts</a></li>
+        <li id="video"><a href="/video">Video</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="../navbar/">Default</a></li>
-        <li class="active"><a href="./">Static top <span class="sr-only">(current)</span></a></li>
-        <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+        <li>
+          <a href="/resume/resume-peter-kraus.pdf" class="color-primary">
+            <i class="fa fa-download"></i> DL Resume
+          </a>
+        </li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -60,6 +56,43 @@
 <div class="container">
 
 <h1>About</h1>
+<p>
+  Howdy, my Name is Peter Kraus and I’m a designer currently living in Clearwater, FL. This site showcases a portion of design work I have done over the years.
+</p>
+
+<h3>Skills:</h3>
+<ul>
+  <li>After Effects</li>
+  <li>Dreamweaver</li>
+  <li>Flash/ActionScript</li>
+  <li>HTML/JavaScript/CSS</li>
+  <li>ASP/ASP.NET/SQL/PHP/MYSQL</li>
+  <li>Illustrator</li>
+  <li>InDesign</li>
+  <li>Photoshop</li>
+  <li>Premiere Pro</li>
+  <li>Pro Tools</li>
+  <li>QuarkXPress</li>
+  <li>Familiar with both Window and Mac platforms</li>
+</ul>
+
+<h3>Education:</h3>
+<ul>
+  <li>
+    International Academy of Design and Technology | Tampa, FL
+    <br>
+    <strong>
+      Associates of Science in Web Design | 2002<br>
+      Bachelor of Fine Arts in  Web Development | 2004</strong>
+  </li>
+  <li>
+    Edu-Tech Centers | Clearwater, FL<br>
+    Courses taken including Programming (Visual Basic), Network Management, Web Programming and Computer Hardware.<br>
+    <strong>
+      Graduated 2001 with a Certificate in “Microsystems Technology.”
+    </strong>
+  </li>
+</ul>
 
 </div>
 
@@ -71,5 +104,10 @@
 
 <script src="/assets/js/site.min.js"></script>
 <script src="/assets/vendor/shadowbox/shadowbox.js"></script>
+<script>
+  $(document).ready(function(){
+    $('#about').addClass('active');
+  });
+</script>
   </body>
 </html>

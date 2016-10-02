@@ -7,6 +7,7 @@
 
     <title>Peter Kraus | Full-stack Developer and Designer Extraordinaire</title>
 
+    <link rel="shortcut icon" href="/favicon.ico">
     <link href="/assets/css/styles.css" rel="stylesheet">
     <link href="/assets/vendor/shadowbox/shadowbox.css" rel="stylesheet">
 
@@ -16,9 +17,10 @@
     <![endif]-->
   </head>
   <body>
-<div class="container">
-    <img src="/assets/img/banner.png" alt="">
+<div class="banner">
+  <img src="/assets/img/banner.png">
 </div>
+
 <nav class="navbar navbar-inverse navbar-static-top">
   <div class="container">
     <div class="navbar-header">
@@ -32,26 +34,20 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li class="dropdown-header">Nav header</li>
-            <li><a href="#">Separated link</a></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
+        <li id="home"><a href="/home">Home</a></li>
+        <li id="about"><a href="/about">About</a></li>
+        <li id="web"><a href="/web">Web</a></li>
+        <li id="print"><a href="/print">Print</a></li>
+        <li id="digital-illustrations"><a href="/digital-illustrations">Illustrations</a></li>
+        <li id="promotional-items"><a href="/promotional-items">T-Shirts</a></li>
+        <li id="video"><a href="/video">Video</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="../navbar/">Default</a></li>
-        <li class="active"><a href="./">Static top <span class="sr-only">(current)</span></a></li>
-        <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+        <li>
+          <a href="/resume/resume-peter-kraus.pdf" class="color-primary">
+            <i class="fa fa-download"></i> DL Resume
+          </a>
+        </li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -60,18 +56,16 @@
 <div class="container">
 
 <h1>Video</h1>
-<div class="post" id="post-128">
-
 <h2>Motion Graphics</h2>
-<div class="content">
+<div class="content motion-graphics">
   <a rel="shadowbox" href="/assets/img/video/project_1.flv">
-    <img src="/assets/img/video/video_1.jpg" alt=""></a>
+    <img src="/assets/img/video/video_1.jpg"></a>
   <a rel="shadowbox" href="/assets/img/video/project_2.flv">
-    <img src="/assets/img/video/video_2.jpg" alt=""></a>
+    <img src="/assets/img/video/video_2.jpg"></a>
   <a rel="shadowbox" href="/assets/img/video/news.flv">
-    <img src="/assets/img/video/video_3.jpg" alt=""></a>
+    <img src="/assets/img/video/video_3.jpg"></a>
   <a rel="shadowbox" href="/assets/img/video/AFS_loop.flv">
-    <img src="/assets/img/video/video_4.jpg" alt=""></a>
+    <img src="/assets/img/video/video_4.jpg"></a>
 </div>
 
 </div>
@@ -84,5 +78,10 @@
 
 <script src="/assets/js/site.min.js"></script>
 <script src="/assets/vendor/shadowbox/shadowbox.js"></script>
+<script>
+  $(document).ready(function(){
+    $('#video').addClass('active');
+  });
+</script>
   </body>
 </html>

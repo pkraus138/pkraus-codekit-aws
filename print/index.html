@@ -7,6 +7,7 @@
 
     <title>Peter Kraus | Full-stack Developer and Designer Extraordinaire</title>
 
+    <link rel="shortcut icon" href="/favicon.ico">
     <link href="/assets/css/styles.css" rel="stylesheet">
     <link href="/assets/vendor/shadowbox/shadowbox.css" rel="stylesheet">
 
@@ -16,9 +17,10 @@
     <![endif]-->
   </head>
   <body>
-<div class="container">
-    <img src="/assets/img/banner.png" alt="">
+<div class="banner">
+  <img src="/assets/img/banner.png">
 </div>
+
 <nav class="navbar navbar-inverse navbar-static-top">
   <div class="container">
     <div class="navbar-header">
@@ -32,26 +34,20 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li class="dropdown-header">Nav header</li>
-            <li><a href="#">Separated link</a></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
+        <li id="home"><a href="/home">Home</a></li>
+        <li id="about"><a href="/about">About</a></li>
+        <li id="web"><a href="/web">Web</a></li>
+        <li id="print"><a href="/print">Print</a></li>
+        <li id="digital-illustrations"><a href="/digital-illustrations">Illustrations</a></li>
+        <li id="promotional-items"><a href="/promotional-items">T-Shirts</a></li>
+        <li id="video"><a href="/video">Video</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="../navbar/">Default</a></li>
-        <li class="active"><a href="./">Static top <span class="sr-only">(current)</span></a></li>
-        <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+        <li>
+          <a href="/resume/resume-peter-kraus.pdf" class="color-primary">
+            <i class="fa fa-download"></i> DL Resume
+          </a>
+        </li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -62,70 +58,71 @@
 <h1>Print</h1>
 <h2>Advertisements</h2>
 <div class="content advertisements">
-  <a rel="shadowbox" href="/assets/img/ST-Poster-12x18.png">
-    <img style="width: 202px;" src="/assets/img/ST-Poster-12x18.png"></a>
   <a rel="shadowbox" href="/assets/img/jiffyScreen_lg.jpg">
-    <img style="width: 202px;" src="/assets/img/jiffyScreen_sm.jpg"></a>
+    <img src="/assets/img/jiffyScreen_sm.jpg"></a>
   <a rel="shadowbox" href="/assets/img/yoganastics_lg.jpg">
-    <img style="width: 202px;" src="/assets/img/yoganastics_sm.jpg"></a>
+    <img src="/assets/img/yoganastics_sm.jpg"></a>
+  <a rel="shadowbox" href="/assets/img/ST-Poster-12x18.png">
+    <img src="/assets/img/ST-Poster-12x18.png"></a>
 </div>
-<div class="content business_cards">
-  <a rel="shadowbox" href="/assets/img/bc/neil_lg.jpg">
-    <img style="width: 285px;" src="/assets/img/bc/neil.jpg"></a>
-  <a rel="shadowbox" href="/assets/img/bc/peter.jpg">
-    <img style="width: 285px; height:167px" src="/assets/img/bc/peter.jpg"></a>
-  <a rel="shadowbox" href="/assets/img/bc/backyardExpressions_lg.jpg">
-    <img style="width: 285px;" src="/assets/img/bc/backyardExpressions_lg.jpg"></a>
-  <a rel="shadowbox" href="/assets/img/bc/aveSalon.jpg">
-    <img style="width: 285px;" src="/assets/img/bc/aveSalon.jpg"></a>
+<h2>Business Cards</h2>
+
+<div class="content business-cards">
   <a rel="shadowbox" href="/assets/img/bc/kimi.jpg">
-    <img style="width: 285px;" src="/assets/img/bc/kimi.jpg"></a>
+    <img src="/assets/img/bc/kimi.jpg"></a>
+  <a rel="shadowbox" href="/assets/img/bc/backyardExpressions_lg.jpg">
+    <img src="/assets/img/bc/backyardExpressions_lg.jpg"></a>
+  <a rel="shadowbox" href="/assets/img/bc/aveSalon.jpg">
+    <img src="/assets/img/bc/aveSalon.jpg"></a>
+  <a rel="shadowbox" href="/assets/img/bc/neil_lg.jpg">
+    <img src="/assets/img/bc/neil.jpg"></a>
+  <a rel="shadowbox" href="/assets/img/bc/peter.jpg">
+    <img src="/assets/img/bc/peter.jpg"></a>
 </div>
 <h2>Brochures</h2>
 
 <div class="content brochures">
   <a rel="shadowbox" href="/assets/img/brochures/backyardExpressions_lg.jpg">
-    <img style="width: 110px;" src="/assets/img/brochures/backyardExpressions_sm.jpg"></a>
+    <img src="/assets/img/brochures/backyardExpressions_sm.jpg"></a>
   <a rel="shadowbox" href="/assets/img/brochures/bmt_lg.jpg">
-    <img style="width: 110px;" src="/assets/img/brochures/bmt_sm.jpg"></a>
+    <img src="/assets/img/brochures/bmt_sm.jpg"></a>
   <a rel="shadowbox" href="/assets/img/brochures/bml_lg.jpg">
-    <img style="width: 110px;" src="/assets/img/brochures/bml_sm.jpg"></a>
+    <img src="/assets/img/brochures/bml_sm.jpg"></a>
   <a rel="shadowbox" href="/assets/img/brochures/NEW_stafford_lg.jpg">
-    <img style="width: 110px;" src="/assets/img/brochures/NEW_stafford_sm.jpg"></a>
-  <a rel="shadowbox" href="/assets/img/brochures/NEW_greenlight_lg.jpg">
-    <img style="width: 110px;" src="/assets/img/brochures/NEW_greenlight_sm.jpg"></a>
+    <img src="/assets/img/brochures/NEW_stafford_sm.jpg"></a>
+  <!-- <a rel="shadowbox" href="/assets/img/brochures/NEW_greenlight_lg.jpg">
+    <img src="/assets/img/brochures/NEW_greenlight_sm.jpg"></a> -->
   <a rel="shadowbox" href="/assets/img/brochures/NEW_PLUS_lg.jpg">
-    <img style="width: 110px;" src="/assets/img/brochures/NEW_PLUS_sm.jpg"></a>
+    <img src="/assets/img/brochures/NEW_PLUS_sm.jpg"></a>
   <a rel="shadowbox" href="/assets/img/brochures/espanol_lg.jpg">
-    <img style="width: 110px;" src="/assets/img/brochures/espanol_sm.jpg"></a>
+    <img src="/assets/img/brochures/espanol_sm.jpg"></a>
   <a rel="shadowbox" href="/assets/img/brochures/greenlight2_lg.jpg">
-    <img style="width: 110px;" src="/assets/img/brochures/greenlight2_sm.jpg"></a>
+    <img src="/assets/img/brochures/greenlight2_sm.jpg"></a>
   <a rel="shadowbox" href="/assets/img/brochures/highschool_lg.jpg">
-    <img style="width: 110px;" src="/assets/img/brochures/highschool_sm.jpg"></a>
+    <img src="/assets/img/brochures/highschool_sm.jpg"></a>
   <a rel="shadowbox" href="/assets/img/brochures/loanOverview_lg.jpg">
-    <img style="width: 110px;" src="/assets/img/brochures/loanOverview_sm.jpg"></a>
+    <img src="/assets/img/brochures/loanOverview_sm.jpg"></a>
 </div>
 
 <div class="content brochures mosaic">
   <a rel="shadowbox" href="/assets/img/brochures/mosaic_1_PLUS_lg.jpg">
-    <img style="width: 110px;" src="/assets/img/brochures/mosaic_1_PLUS_sm.jpg"></a>
+    <img src="/assets/img/brochures/mosaic_1_PLUS_sm.jpg"></a>
   <a rel="shadowbox" href="/assets/img/brochures/mosaic_2_stafford_lg.jpg">
-    <img style="width: 110px;" src="/assets/img/brochures/mosaic_2_stafford_sm.jpg"></a>
+    <img src="/assets/img/brochures/mosaic_2_stafford_sm.jpg"></a>
   <a rel="shadowbox" href="/assets/img/brochures/mosaic_3_consolidation_lg.jpg">
-    <img style="width: 110px;" src="/assets/img/brochures/mosaic_3_consolidation_sm.jpg"></a>
-  <br>
-    <img style="width: 110px;" src="/assets/img/brochures/mosaic_33_greenlight_sm.jpg">
+    <img src="/assets/img/brochures/mosaic_3_consolidation_sm.jpg"></a>
+  <a href="#">
+    <img src="/assets/img/brochures/mosaic_33_greenlight_sm.jpg"></a>
   <a rel="shadowbox" href="/assets/img/brochures/mosaic_4_advantage_lg.jpg">
-    <img style="width: 110px;" src="/assets/img/brochures/mosaic_4_advantage_sm.jpg"></a>
+    <img src="/assets/img/brochures/mosaic_4_advantage_sm.jpg"></a>
   <a rel="shadowbox" href="/assets/img/brochures/mosaic_5_about_lg.jpg">
-    <img style="width: 110px;" src="/assets/img/brochures/mosaic_5_about_sm.jpg"></a>
-  <br>
+    <img src="/assets/img/brochures/mosaic_5_about_sm.jpg"></a>
   <a rel="shadowbox" href="/assets/img/brochures/mosaic_6_default_lg.jpg">
-    <img style="width: 110px;" src="/assets/img/brochures/mosaic_6_default_sm.jpg"></a>
+    <img src="/assets/img/brochures/mosaic_6_default_sm.jpg"></a>
   <a rel="shadowbox" href="/assets/img/brochures/mosaic_7_faq_lg.jpg">
-    <img style="width: 110px;" src="/assets/img/brochures/mosaic_7_faq_sm.jpg"></a>
+    <img src="/assets/img/brochures/mosaic_7_faq_sm.jpg"></a>
   <a rel="shadowbox" href="/assets/img/brochures/mosaic_8_enrollment_lg.jpg">
-    <img style="width: 110px;" src="/assets/img/brochures/mosaic_8_enrollment_sm.jpg"></a>
+    <img src="/assets/img/brochures/mosaic_8_enrollment_sm.jpg"></a>
 </div>
 
 </div>
@@ -138,5 +135,10 @@
 
 <script src="/assets/js/site.min.js"></script>
 <script src="/assets/vendor/shadowbox/shadowbox.js"></script>
+<script>
+  $(document).ready(function(){
+    $('#print').addClass('active');
+  });
+</script>
   </body>
 </html>
