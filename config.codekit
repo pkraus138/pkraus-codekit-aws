@@ -2628,15 +2628,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/assets\/css\/modules\/_footer.scss": {
+	"\/assets\/css\/home\/modules\/_footer.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/modules\/_footer.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/css\/_footer.css",
+		"inputAbbreviatedPath": "\/assets\/css\/home\/modules\/_footer.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/home\/css\/_footer.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2644,15 +2644,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/css\/modules\/_header.scss": {
+	"\/assets\/css\/home\/modules\/_header.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/modules\/_header.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/css\/_header.css",
+		"inputAbbreviatedPath": "\/assets\/css\/home\/modules\/_header.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/home\/css\/_header.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2660,15 +2660,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/css\/partials\/_common.scss": {
+	"\/assets\/css\/home\/partials\/_common.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/partials\/_common.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/css\/_common.css",
+		"inputAbbreviatedPath": "\/assets\/css\/home\/partials\/_common.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/home\/css\/_common.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2676,15 +2676,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/css\/partials\/_helpers.scss": {
+	"\/assets\/css\/home\/partials\/_helpers.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/partials\/_helpers.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/css\/_helpers.css",
+		"inputAbbreviatedPath": "\/assets\/css\/home\/partials\/_helpers.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/home\/css\/_helpers.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2692,15 +2692,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/css\/partials\/_variables-bootstrap.scss": {
+	"\/assets\/css\/home\/partials\/_variables-bootstrap.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/partials\/_variables-bootstrap.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/css\/_variables-bootstrap.css",
+		"inputAbbreviatedPath": "\/assets\/css\/home\/partials\/_variables-bootstrap.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/home\/css\/_variables-bootstrap.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2708,19 +2708,76 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/css\/partials\/_variables.scss": {
+	"\/assets\/css\/home\/partials\/_variables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/partials\/_variables.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/css\/_variables.css",
+		"inputAbbreviatedPath": "\/assets\/css\/home\/partials\/_variables.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/home\/css\/_variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/css\/home\/styles.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/home\/styles.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/css\/home\/styles.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 2,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/home\/styles.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/styles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/css\/partials\/_page.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/partials\/_page.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_page.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/css\/partials\/_reset.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/partials\/_reset.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_reset.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
@@ -2748,6 +2805,17 @@
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/assets\/img\/background.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.02609e+06,
+		"inputAbbreviatedPath": "\/assets\/img\/background.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/background.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/assets\/img\/banner.png": {
 		"fileType": 32768,
@@ -3844,6 +3912,24 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/assets\/views\/new\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/views\/new\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/assets\/views\/new\/index.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/views\/new\/index.kit",
+		"outputAbbreviatedPath": "\/assets\/views\/new\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/assets\/views\/shared\/_footer.kit": {
 		"fileType": 2048,

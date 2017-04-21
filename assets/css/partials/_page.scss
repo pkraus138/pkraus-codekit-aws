@@ -1,0 +1,94 @@
+
+body {
+  * {
+    box-sizing: border-box;
+  }
+
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 13px;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.bg {
+  animation-duration: 0.75s;
+	z-index: 0;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+  background-image: url(https://s3.amazonaws.com/pkraus138.github.io/v1/assets/img/background.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.container {
+	position: relative;
+	z-index: 2;
+}
+
+h1 { 
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-style: italic;
+}
+ h3 {
+  font-size: 1em;
+ }
+
+.info {
+  color: #fff;
+	margin: 0 auto;
+  max-width: 500px;
+
+  .info-item {
+    font-size: 1.2em;
+    padding: 1em 1em 0;
+    text-align: center;
+
+    @media screen and (min-width: 480px) {
+      float: left;
+      text-align: left;
+      width: 50%;
+
+      &:nth-child(odd) {
+        text-align: right;
+      }
+      &:last-of-type {
+        font-size: 1.25em;
+        text-align: center;
+        width: 100%;
+      }
+    }
+
+    a {
+      background-color: rgba(0, 0, 0, 0.25);
+      border-radius: 4px;
+      color: #fff;
+      display: inline-block;
+      padding: 0.25em 0.5em;
+      text-decoration: none;
+
+      &:hover,
+      &:focus {
+      }
+    }
+  }
+}
+
+.logo {
+  display: block;
+  margin: 0px auto;
+  padding-top: 3em;
+  width: 250px;
+}
+
+.text-center {
+  text-align: center;
+}
